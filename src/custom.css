@@ -1,0 +1,42 @@
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideUp {
+    from { opacity: 0; transform: translateY(30px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    50% { transform: translateY(-10px) rotate(2deg); }
+}
+
+.bg-pattern {
+    background-image: 
+        radial-gradient(circle at 25% 25%, rgba(47, 155, 193, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 75% 75%, rgba(83, 59, 120, 0.15) 0%, transparent 50%);
+}
+
+.text-shadow {
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.backdrop-blur-custom {
+    backdrop-filter: blur(10px);
+}
+
+.bg-premier { background-color: #2F9BC1; }
+.bg-sekunder { background-color: #533B78; }
+.text-premier { color: #2F9BC1; }
+.text-sekunder { color: #533B78; }
+.border-premier { border-color: #2F9BC1; }
+.border-sekunder { border-color: #533B78; }
+
+.hover\:bg-premier:hover { background-color: #2F9BC1; }
+.hover\:bg-sekunder:hover { background-color: #533B78; }
+.hover\:text-premier:hover { color: #2F9BC1; }
+.hover\:text-sekunder:hover { color: #533B78; }
+.hover\:border-premier:hover { border-color: #2F9BC1; }
+.hover\:border-sekunder:hover { border-color: #533B78; }

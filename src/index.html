@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logo.png" type="image/x-icon">
+    <title>Algorithm Studio - Creative Studio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body class="text-white overflow-x-hidden" style="background: linear-gradient(135deg, #2F9BC1 0%, #533B78 100%);">
+    
+    <div class="fixed inset-0 bg-pattern opacity-50"></div>
+    
+    
+    <div class="fixed inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
+        <div class="text-white/10 text-[12rem] md:text-[20rem] font-bold opacity-10 select-none transform -rotate-12 animate-float">
+            BACKGROUND
+        </div>
+    </div>
+    
+    
+    <nav class="fixed top-0 w-full z-50 bg-transparent backdrop-blur-custom  ">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="text-xl font-bold text-white hover:text-blue-400 transition-colors cursor-pointer">
+                    <img src="./logo.png" alt="logo" class="w-12 h-auto" />
+                </div>
+                <div class="hidden md:flex space-x-8">
+                    <a href="about.html" class="text-gray-300 hover:text-white transition-colors duration-300">About</a>
+                    <a href="#pricing" class="text-gray-300 hover:text-white transition-colors duration-300">Pricing</a>
+                    <a href="#games" class="text-gray-300 hover:text-white transition-colors duration-300">Games</a>
+                    <a href="#news" class="text-gray-300 hover:text-white transition-colors duration-300">News</a>
+                </div>
+                
+                <div class="md:hidden">
+                    <button id="mobile-menu-btn" class="text-gray-300 hover:text-white">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div id="mobile-menu" class="hidden md:hidden bg-gray-900/95 backdrop-blur-custom">
+            <div class="px-2 pt-2 pb-3 space-y-1">
+                <a href="about.html" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors">About</a>
+                <a href="#pricing" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors">Pricing</a>
+                <a href="#games" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors">Games</a>
+                <a href="#news" class="block px-3 py-2 text-gray-300 hover:text-white transition-colors">News</a>
+            </div>
+        </div>
+    </nav>
+
+    
+    <main class="relative min-h-screen flex items-center justify-center px-4">
+        <div class="text-center max-w-4xl mx-auto">
+            <h1 class="text-4xl md:text-6xl lg:text-7xl font-display font-light mb-6 animate-slide-up text-shadow">
+                Algorithm Studio
+            </h1>
+            <p class="text-lg md:text-xl text-gray-300 mb-8 animate-slide-up animation-delay-200">
+                SLOGAN MUUU
+            </p>
+            
+            
+            <div class="animate-slide-up animation-delay-400">
+                <button id="contact-btn" class="group relative inline-flex items-center px-8 py-3 bg-gray-200 text-gray-900 rounded-full font-medium transition-all duration-300 hover:bg-white hover:scale-105 hover:shadow-2xl">
+                    <svg class="w-5 h-5 mr-2 text-gray-600 group-hover:text-gray-800 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path>
+                    </svg>
+                    Contact Us
+                    <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </button>
+            </div>
+            
+            
+            <div class="flex justify-center space-x-6 mt-8 animate-slide-up animation-delay-600">
+                <a href="#" class="text-white hover:text-gray-400 transition-all duration-300 hover:scale-110">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-steam" viewBox="0 0 16 16">
+                        <path d="M.329 10.333A8.01 8.01 0 0 0 7.99 16C12.414 16 16 12.418 16 8s-3.586-8-8.009-8A8.006 8.006 0 0 0 0 7.468l.003.006 4.304 1.769A2.2 2.2 0 0 1 5.62 8.88l1.96-2.844-.001-.04a3.046 3.046 0 0 1 3.042-3.043 3.046 3.046 0 0 1 3.042 3.043 3.047 3.047 0 0 1-3.111 3.044l-2.804 2a2.223 2.223 0 0 1-3.075 2.11 2.22 2.22 0 0 1-1.312-1.568L.33 10.333Z"/>
+                        <path d="M4.868 12.683a1.715 1.715 0 0 0 1.318-3.165 1.7 1.7 0 0 0-1.263-.02l1.023.424a1.261 1.261 0 1 1-.97 2.33l-.99-.41a1.7 1.7 0 0 0 .882.84Zm3.726-6.687a2.03 2.03 0 0 0 2.027 2.029 2.03 2.03 0 0 0 2.027-2.029 2.03 2.03 0 0 0-2.027-2.027 2.03 2.03 0 0 0-2.027 2.027m2.03-1.527a1.524 1.524 0 1 1-.002 3.048 1.524 1.524 0 0 1 .002-3.048"/>
+                        </svg>
+                </a>
+                <a href="#" class="text-white hover:text-red-500 transition-all duration-300 hover:scale-110">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/>
+                    </svg>
+                </a>
+                <a href="#" class="text-white hover:text-pink-500 transition-all duration-300 hover:scale-110">
+                    <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        
+        
+        <div class="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <svg class="w-6 h-6 text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+            </svg>
+        </div>
+    </main>
+
+
+    
+    <section id="about" class="py-20 px-4 bg-gray-800/50 backdrop-blur-sm relative">
+        
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
+            <div class="text-gray-700 text-[8rem] md:text-[12rem] font-bold opacity-10 select-none transform -rotate-12 animate-float">
+                BACKGROUND
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-display font-light mb-6">Our Portfolio</h2>
+                <p class="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto">
+                    inilah game yang kita buat dan kembangkan selama kurang lebih beberapa tahun terakhir
+                </p>
+            </div>
+            
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="group relative bg-gray-900/80 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute top-4 left-4 z-20">
+                        <span class="inline-block px-3 py-1 bg-gray-800 text-gray-300 text-sm font-medium border border-gray-600 rounded">
+                            GAMES
+                        </span>
+                    </div>
+                    
+                    
+                    <div class="relative h-64 bg-gray-800/50 flex items-center justify-center overflow-hidden">
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div class="text-gray-700 text-6xl font-bold opacity-20 select-none transform -rotate-12">
+                                GAME
+                            </div>
+                        </div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-br from-purple-600/20 to-blue-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-blue-400 transition-colors">judul</h3>
+                        <p class="text-sm text-gray-400 mb-4">DD-MM-YY</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisl ut aliquip ex ea commodo consequat. Duis aute 
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                
+                
+                <div class="group relative bg-gray-900/80 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute top-4 left-4 z-20">
+                        <span class="inline-block px-3 py-1 bg-gray-800 text-gray-300 text-sm font-medium border border-gray-600 rounded">
+                            GAMES
+                        </span>
+                    </div>
+                    
+                    
+                    <div class="relative h-64 bg-gray-800/50 flex items-center justify-center overflow-hidden">
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div class="text-gray-700 text-6xl font-bold opacity-20 select-none transform -rotate-12">
+                                GAME
+                            </div>
+                        </div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-br from-green-600/20 to-teal-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-green-400 transition-colors">judul</h3>
+                        <p class="text-sm text-gray-400 mb-4">DD-MM-YY</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisl ut aliquip ex ea commodo consequat. Duis aute 
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+                
+                
+                <div class="group relative bg-gray-900/80 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute top-4 left-4 z-20">
+                        <span class="inline-block px-3 py-1 bg-gray-800 text-gray-300 text-sm font-medium border border-gray-600 rounded">
+                            GAMES
+                        </span>
+                    </div>
+                    
+                    
+                    <div class="relative h-64 bg-gray-800/50 flex items-center justify-center overflow-hidden">
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div class="text-gray-700 text-6xl font-bold opacity-20 select-none transform -rotate-12">
+                                GAME
+                            </div>
+                        </div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-br from-red-600/20 to-orange-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-red-400 transition-colors">judul</h3>
+                        <p class="text-sm text-gray-400 mb-4">DD-MM-YY</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+                            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud 
+                            exercitation ullamco laboris nisl ut aliquip ex ea commodo consequat. Duis aute 
+                            irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+                            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia 
+                            deserunt mollit anim id est laborum.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="mt-16">
+                <div class="w-full h-1 bg-white"></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="pricing" class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-display mb-8">Pricing</h2>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-gray-800/60 p-6 rounded-lg backdrop-blur-sm hover:bg-gray-800/80 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-4">Basic</h3>
+                    <p class="text-2xl font-bold mb-4">$99</p>
+                    <p class="text-gray-400">Perfect for small projects</p>
+                </div>
+                <div class="bg-gray-800/60 p-6 rounded-lg backdrop-blur-sm hover:bg-gray-800/80 transition-all duration-300 transform scale-105">
+                    <h3 class="text-xl font-semibold mb-4">Pro</h3>
+                    <p class="text-2xl font-bold mb-4">$199</p>
+                    <p class="text-gray-400">Best for growing businesses</p>
+                </div>
+                <div class="bg-gray-800/60 p-6 rounded-lg backdrop-blur-sm hover:bg-gray-800/80 transition-all duration-300">
+                    <h3 class="text-xl font-semibold mb-4">Enterprise</h3>
+                    <p class="text-2xl font-bold mb-4">$399</p>
+                    <p class="text-gray-400">For large scale projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="games" class="py-20 px-4 bg-gray-800/50 backdrop-blur-sm">
+        <div class="max-w-4xl mx-auto text-center">
+            <h2 class="text-3xl md:text-4xl font-display mb-8">Games</h2>
+            <p class="text-lg text-gray-300">
+                Jelajahi koleksi game menarik yang telah kami kembangkan dengan teknologi terdepan 
+                dan gameplay yang adiktif.
+            </p>
+        </div>
+    </section>
+
+    
+    <section id="news" class="py-20 px-4 relative">
+        
+        <div class="absolute inset-0 flex items-center justify-center pointer-events-none overflow-hidden">
+            <div class="text-gray-700 text-[8rem] md:text-[12rem] font-bold opacity-10 select-none transform rotate-12 animate-float">
+                NEWS
+            </div>
+        </div>
+        
+        <div class="max-w-7xl mx-auto relative z-10">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl md:text-5xl lg:text-6xl font-display font-light mb-6">Latest News</h2>
+                <p class="text-lg md:text-xl text-gray-300 max-w-4xl mx-auto">
+                    Stay updated with our latest developments, game releases, and studio announcements
+                </p>
+            </div>
+            
+            
+            <div class="grid md:grid-cols-3 gap-8">
+                
+                <div class="group relative bg-gray-900/80 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute top-4 left-4 z-20">
+                        <span class="inline-block px-3 py-1 bg-blue-600 text-white text-sm font-medium rounded">
+                            UPDATE
+                        </span>
+                    </div>
+                    
+                    
+                    <div class="relative h-48 bg-gradient-to-br from-blue-600/30 to-purple-600/30 flex items-center justify-center overflow-hidden">
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div class="text-gray-700 text-4xl font-bold opacity-30 select-none transform -rotate-12">
+                                NEWS
+                            </div>
+                        </div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-br from-blue-600/20 to-purple-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-blue-400 transition-colors">New Game Release Coming Soon</h3>
+                        <p class="text-sm text-gray-400 mb-4">September 5, 2025</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            We're excited to announce our upcoming game release! After months of development, 
+                            we're putting the final touches on what promises to be our most ambitious project yet. 
+                            Stay tuned for more details and exclusive previews.
+                        </p>
+                        <div class="mt-4">
+                            <button class="text-blue-400 hover:text-blue-300 text-sm font-medium transition-colors">
+                                Read more →
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="group relative bg-gray-900/80 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute top-4 left-4 z-20">
+                        <span class="inline-block px-3 py-1 bg-green-600 text-white text-sm font-medium rounded">
+                            ACHIEVEMENT
+                        </span>
+                    </div>
+                    
+                    
+                    <div class="relative h-48 bg-gradient-to-br from-green-600/30 to-teal-600/30 flex items-center justify-center overflow-hidden">
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div class="text-gray-700 text-4xl font-bold opacity-30 select-none transform -rotate-12">
+                                NEWS
+                            </div>
+                        </div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-br from-green-600/20 to-teal-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-green-400 transition-colors">Studio Wins Best Indie Game Award</h3>
+                        <p class="text-sm text-gray-400 mb-4">August 28, 2025</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            We're thrilled to share that Namastudiomuuuu has been recognized with the Best Indie Game Award 
+                            at the Regional Gaming Convention. This achievement reflects our team's dedication to creating 
+                            innovative and engaging gaming experiences.
+                        </p>
+                        <div class="mt-4">
+                            <button class="text-green-400 hover:text-green-300 text-sm font-medium transition-colors">
+                                Read more →
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                
+                
+                <div class="group relative bg-gray-900/80 border border-gray-700 rounded-lg overflow-hidden hover:border-gray-600 transition-all duration-300 hover:scale-105 hover:shadow-2xl">
+                    <div class="absolute top-4 left-4 z-20">
+                        <span class="inline-block px-3 py-1 bg-orange-600 text-white text-sm font-medium rounded">
+                            ANNOUNCEMENT
+                        </span>
+                    </div>
+                    
+                    
+                    <div class="relative h-48 bg-gradient-to-br from-orange-600/30 to-red-600/30 flex items-center justify-center overflow-hidden">
+                        
+                        <div class="absolute inset-0 flex items-center justify-center pointer-events-none">
+                            <div class="text-gray-700 text-4xl font-bold opacity-30 select-none transform -rotate-12">
+                                NEWS
+                            </div>
+                        </div>
+                        
+                        <div class="absolute inset-0 bg-gradient-to-br from-orange-600/20 to-red-600/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2 text-white group-hover:text-orange-400 transition-colors">Team Expansion & New Office</h3>
+                        <p class="text-sm text-gray-400 mb-4">August 15, 2025</p>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            Namastudiomuuuu is growing! We're excited to announce our team expansion with five new talented 
+                            developers joining our studio. We've also moved to a larger office space to accommodate our 
+                            growing team and upcoming projects.
+                        </p>
+                        <div class="mt-4">
+                            <button class="text-orange-400 hover:text-orange-300 text-sm font-medium transition-colors">
+                                Read more →
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+            <div class="text-center mt-12">
+                <button class="group relative inline-flex items-center px-8 py-3 bg-gray-200 text-gray-900 rounded-full font-medium transition-all duration-300 hover:bg-white hover:scale-105 hover:shadow-2xl">
+                    <svg class="w-5 h-5 mr-2 text-gray-600 group-hover:text-gray-800 transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 20H5a2 2 0 01-2-2V6a2 2 0 012-2h10a2 2 0 012 2v1m2 13a2 2 0 01-2-2V7m2 13a2 2 0 002-2V9a2 2 0 00-2-2h-2m-4-3H9M7 16h6M7 8h6v4H7V8z"></path>
+                    </svg>
+                    View All News
+                    <div class="absolute inset-0 rounded-full bg-gradient-to-r from-blue-400 to-purple-500 opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="py-8 px-4 border-t border-gray-100">
+        <div class="max-w-4xl mx-auto text-center text-gray-400">
+            <p>&copy; 2025 Algorithm Studio. All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
