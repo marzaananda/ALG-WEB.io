@@ -3,7 +3,7 @@ module.exports = {
   theme: {
     extend: {
            fontFamily: {
-              'display': ['Georgia', 'serif'],
+              'display': ['Italiana', 'serif'],
               'body': ['Inter', 'sans-serif']
               },
       colors: {

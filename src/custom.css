@@ -1,4 +1,10 @@
-    body, html {
+@import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
+.font-italiana {
+  font-family: 'Italiana', serif;
+}
+
+
+body, html {
       margin: 0;
       padding: 0;
       height: 100%;
@@ -20,3 +26,9 @@
       color: white;
       text-align: center;
     }
+    footer {
+    position: relative;
+    z-index: 10;
+    background: rgba(0,0,0,0.6); /* biar jelas terlihat */
+    color: white;
+}
