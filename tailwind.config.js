@@ -7,7 +7,7 @@ module.exports = {
               'body': ['Inter', 'sans-serif']
               },
       colors: {
-        'daily-dev-tips': "#F89283"
+        'daily-dev-tips': "#00AAFF"
       },
                           animation: {
                         'fade-in': 'fadeIn 1s ease-in-out',
